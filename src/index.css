@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+  background: #07060f;
+}
+
+body {
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  color: #f4f1ff;
+  background:
+    radial-gradient(1200px 600px at 10% -10%, rgba(181, 107, 255, 0.18), transparent 50%),
+    radial-gradient(900px 500px at 110% 10%, rgba(62, 231, 255, 0.12), transparent 45%),
+    #07060f;
+  overflow: hidden;
+}
+
+#root {
+  height: 100dvh;
+}
+
+.glass {
+  background: linear-gradient(180deg, rgba(28, 23, 51, 0.72), rgba(12, 10, 22, 0.62));
+  border: 1px solid rgba(181, 107, 255, 0.18);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.28), inset 0 1px 0 rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(18px);
+}
+
+.gradient-border {
+  position: relative;
+}
+
+.gradient-border::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 1px;
+  border-radius: inherit;
+  background: linear-gradient(135deg, rgba(181, 107, 255, 0.55), rgba(62, 231, 255, 0.18), rgba(255, 204, 77, 0.28));
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+.field {
+  @apply w-full rounded-2xl border border-white/10 bg-ink-800 px-3 py-2.5 text-sm text-white;
+}

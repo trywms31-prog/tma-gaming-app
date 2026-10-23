@@ -1,0 +1,89 @@
+{
+  "appName": "SquadUp",
+  "nav": {
+    "home": "Feed",
+    "search": "Search",
+    "create": "Create",
+    "alerts": "Alerts",
+    "profile": "Profile"
+  },
+  "feed": {
+    "explore": "Explore",
+    "following": "Following",
+    "empty": "No posts yet",
+    "like": "Like",
+    "comment": "Comments",
+    "share": "Share",
+    "shareCopied": "Link copied",
+    "follow": "Follow",
+    "following": "Following",
+    "commentsTitle": "Comments",
+    "reply": "Reply",
+    "send": "Send",
+    "placeholder": "Write a comment..."
+  },
+  "finder": {
+    "lfg": "Looking for players",
+    "clans": "Clans",
+    "filters": "Filters",
+    "game": "Game",
+    "mode": "Mode",
+    "rank": "Rank",
+    "language": "Language",
+    "voice": "Voice chat",
+    "any": "Any",
+    "apply": "Apply",
+    "reset": "Reset",
+    "join": "Join",
+    "applied": "Applied",
+    "member": "Member",
+    "write": "Message",
+    "members": "members",
+    "voiceOn": "Voice on",
+    "voiceOff": "No mic"
+  },
+  "create": {
+    "title": "Create",
+    "post": "Create post",
+    "clan": "Create clan",
+    "lfg": "Create LFG post",
+    "caption": "Caption",
+    "media": "Photo or video (max 20MB)",
+    "tooBig": "File is larger than 20MB",
+    "publish": "Publish",
+    "clanName": "Clan name",
+    "tag": "Tag",
+    "requirements": "Requirements",
+    "logo": "Logo",
+    "neededRoles": "Needed roles",
+    "teamSize": "Team size",
+    "role": "Your role",
+    "hours": "Play hours",
+    "description": "Description"
+  },
+  "alerts": {
+    "title": "Notifications",
+    "empty": "All quiet",
+    "like": "Likes",
+    "comment": "Comments",
+    "clan": "Clans"
+  },
+  "profile": {
+    "settings": "Settings",
+    "bio": "Bio",
+    "bioPlaceholder": "Tell others about your games",
+    "language": "Language",
+    "uk": "Ukrainian",
+    "en": "English",
+    "save": "Save",
+    "myPosts": "My posts",
+    "myClan": "My clan / Team",
+    "gallery": "Extra photos",
+    "noClan": "You are not in a clan yet",
+    "noPosts": "No posts"
+  },
+  "common": {
+    "close": "Close",
+    "loading": "Loading..."
+  }
+}
